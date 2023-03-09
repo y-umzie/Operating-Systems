@@ -3,8 +3,7 @@
 using namespace std;
 
 // Function to find the waiting time for all processes
-void findWaitingTime(int processes[], int n,
-			int bt[], int wt[], int quantum)
+void findWaitingTime(int processes[], int n, int bt[], int wt[], int quantum)
 {
 	// Make a copy of burst times bt[] to store remaining burst times.
 	int rem_bt[n];
